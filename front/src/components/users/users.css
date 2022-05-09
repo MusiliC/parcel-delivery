@@ -1,0 +1,44 @@
+.user-list{
+      background-color: rgba(248, 248, 248, 0.7);
+      border-bottom-left-radius: 30%;
+      border-bottom-right-radius: 50%;
+      padding-bottom: 70px;
+}
+
+.all-users{
+    width: 90%;
+    /* background-color: bisque; */
+    display: flex;
+    flex-direction: row;
+    margin: 0px auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 20px;
+   
+}
+
+.one-user{
+  
+    border: 1px solid black;
+    padding: 30px 15px;
+    border-radius: 10px;    
+    margin-top: 20px;
+    /* display: flex;    */
+     box-shadow: 5px 5px 8px #888888
+}
+
+.one-user:hover{
+      background-color: white;
+    cursor: pointer;
+}
+
+.one-user p{
+    font-size: 0.8rem;
+    margin-top: 7px;
+}
+
+.one-user span{
+    font-weight: 500;
+    margin-top: 7px;
+}

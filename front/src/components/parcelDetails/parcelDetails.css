@@ -1,0 +1,85 @@
+.parcel-details-description{
+    background-color: rgba(248, 248, 248, 0.7);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom-right-radius: 30%;
+}
+
+.parcel-container-description{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 70%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.parcel-data{
+    width: 50%;
+    padding: 10px;
+    border-right: 1px solid black;
+    background-color: rgb(250, 247, 237);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.parcel-details-buttons{
+    display: flex;    
+    flex-direction: row;    
+    width: 100%;        
+    margin-top: 20px;
+     
+}
+
+.parcel-details-buttons button{
+  background-color: crimson;
+  border: none;
+  outline: none;
+  padding: 6px 0px;
+  width: 100%;
+  margin: 5px 0px 7px;
+  font-size: 15px;
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-left: 5%;
+}
+
+#deleteButton{
+      background-color: crimson;
+  border: none;
+  outline: none;
+  padding: 6px 0px;
+  width: 100%;
+  margin: 5px 0px 7px;
+  font-size: 15px;
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+  
+}
+
+.parcel-data span{
+   margin-top: 8px;
+   font-weight: 500;
+}
+
+
+
+.parcel-data p{
+     margin-top: 8px;
+}
+
+.parcel-details-bg{
+    width: 50%;
+    object-fit: contain;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parcel-details-bg img{
+    width: 100%;
+}

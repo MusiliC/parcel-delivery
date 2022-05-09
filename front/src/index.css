@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+ padding: 20px;  
+ 
+}
+
+.form-container{
+  
+  min-width: 300px;
+  margin: 10px auto;
+  width: 450px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px;  
+  border-radius: 10px;
+  border: 2px solid rgb(241, 245, 248);
+   box-shadow: 5px 5px 8px #888888
+ 
+}
+
+.form {
+  width: 350px;
+  max-width: 450px;
+  padding: 20px;
+  
+  /* background-color: rgb(250, 250, 250); */
+  border-radius: 5px;
+}
+.form-title {
+  text-align: center;
+  font-weight: 500;
+  font-family: 'Courgette', cursive;
+}
+
+
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0px;
+}
+
+label {
+  margin-bottom: 3px;
+  font-size: 12px;
+  font-weight: 500;
+  color: black;
+}
+
+.form-group input {
+  width: 100%;
+  height: 25px;
+  padding-left: 14px;
+  font-size: 12px;
+  background-color: rgb(250, 250, 250);
+  border: 0.2px black solid;
+}
+
+.btn {
+  background-color: crimson;
+  border: none;
+  outline: none;
+  padding: 4px 0px;
+  width: 100%;
+  margin: 5px 0px 7px;
+  font-size: 15px;
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.error {
+  background-color: rgb(253, 10, 59);
+  color: rgb(65, 12, 12);
+  text-align: center;
+  padding: 5px 0px;
+  border-radius: 10px;
+  margin: 5px 0px;
+  font-size: 15px;
+  color: white;
+  font-weight: 500;
+}
+
+a{
+  font-size: 12px;
+  
+}
+
+.bg-image{
+  align-items: center;
+  justify-content: center;
+}
+
+.log-image img{
+  width: 160px;
+  height: 260px;
+  object-fit: cover; 
+  border-radius: 10px; 
+}
+
+.form-container-register{
+  
+    min-width: 300px;
+  margin: 10px auto;
+  width: 450px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px;  
+  border-radius: 10px;
+  border: 2px solid rgb(241, 245, 248);
+  box-shadow: 5px 5px 5px #888888
+}
+
+@media only screen and (max-width: 600px) {
+ .form-container {
+    width:300px;     
+    margin: 10px auto;
+    padding: 10px;
+  }
+}

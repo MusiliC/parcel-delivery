@@ -1,0 +1,93 @@
+.track-parcel {
+  background-color: rgb(246, 249, 252, 0.7);
+  padding-bottom: 20px;
+}
+
+.track-info {
+  width: 80%;
+  margin: 0px auto;
+}
+
+.track-title {
+  text-align: center;
+  padding-bottom: 2px;
+  padding-top: 20px;
+}
+
+.track-underline {
+  height: 1px;
+  width: 28%;
+  margin: auto;
+  background-color: black;
+  margin-bottom: 20px;
+}
+
+.track-body {
+  border: 2px solid rgb(102, 47, 255);
+  display: flex;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.track-results {
+  width: 50%;
+  padding: 0px 30px 50px 30px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-right: 1px solid black;
+}
+
+.track-map {
+  width: 50%;
+  padding: 10px;
+}
+
+.track-map img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.track-results p {
+  margin-top: 40px;
+  font-weight: 500;
+}
+
+/* .track-details{
+    border: 1px solid magenta;
+    margin: 0px auto;
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    padding: 20px 0px 20px 0px;
+} */
+
+.track-sender {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 30px 30px 30px;
+  text-align: center;
+  border-right: 1px solid black;
+}
+
+.track-receiver {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 30px 30px 30px;
+  text-align: center;
+}
+
+.track-sender p {
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.track-receiver p {
+  font-weight: 500;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,195 @@
+.service{
+    width: 100%;
+    margin: 0px auto;    
+}
+
+.main-service{
+    background-color: rgb(246, 249, 252, 0.7);
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    border-bottom-left-radius: 20% ;
+    border-bottom-right-radius: 20% ;
+}
+
+.service-content{
+    width: 70%;    
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+    
+     padding-bottom: 20px;
+     padding-top: 70px;
+    
+    
+}
+
+.service-details{
+    width: 50%;     
+    margin-top: 20px;
+}
+
+.service-details li{
+    margin-top: 10px;
+}
+
+.service-background{
+    width: 70%;
+    object-fit: cover;
+    
+}
+
+.service-background img{
+    margin-left: 80px;
+}
+
+.service-list{
+    margin-top: 30px;
+}
+
+.service-list #item{
+    font-weight: 500;
+}
+
+.service-background img{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+
+.service-heading {
+    font-size: 2rem;
+    
+}
+
+.section-two{
+    
+    margin-top: 40px;
+}
+
+.section-title{
+   
+    width: 40%;
+    margin: 20px auto;
+    padding-top: 20px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    color: crimson;
+    font-size: 1.2rem;
+}
+
+.services-offered{
+    
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 40px 0;
+}
+
+.create, .parcel-list, .tracking{
+    width: 23%;
+    border: 1px solid black;
+    padding:  10px;
+    border-radius: 10px;
+    background-color: rgb(230, 235, 230, 0.2);
+     box-shadow: 5px 5px 8px #888888
+}
+
+ .create:hover{
+    background-color: rgb(240, 36, 80, 0.3);
+    cursor: pointer;
+}
+
+ .parcel-list:hover{
+    background-color: rgb(245, 195, 205);
+    cursor: pointer;
+}
+
+ .tracking:hover{
+    background-color: rgb(245, 195, 205);
+    cursor: pointer;
+}
+
+#delivery-title{
+    font-size: 1.2rem;
+    font-weight: 450;
+    padding-bottom: 20px;
+}
+
+#idelivery-title{
+    font-size: 1.2rem;
+    font-weight: 450;
+    padding-bottom: 20px;
+    padding-top: 7px;
+}
+
+.services-offered img{
+    height: 17%;
+    width: 15%;
+    margin-left: 10px;
+    
+}
+
+
+#delivery-info{
+    font-size: 0.9rem;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+@media only screen and (max-width: 900px) {
+    .service-content{
+    width: 70%;    
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column-reverse;    
+     padding-bottom: 20px;
+     padding-top: 7px;
+     align-items: center;
+     justify-content: center;
+   
+   
+}
+
+.service-details{
+    width: 80%;     
+    margin-top: 10px;    
+    margin: 0px auto;
+}
+
+.service-background{
+    width: 70%;
+    object-fit: contain;
+    
+}
+
+.service-background img{
+    margin-left: 80px;
+    display: none;
+}
+.services-offered{
+    
+    width: 80%;    
+    display: flex;
+    flex-direction: column;       
+   
+}
+
+.create, .parcel-list, .tracking{
+    width: 60%;
+    border: 1px solid black;
+    padding:  10px;
+    border-radius: 10px;
+    background-color: rgb(230, 235, 230, 0.2);
+    box-shadow: 5px 5px 8px #888888;
+    margin: auto;
+    margin-top: 20px;
+}
+
+}
+

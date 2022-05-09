@@ -1,0 +1,46 @@
+.parcel-listing{
+    background-color: rgba(248, 248, 248, 0.7);
+    padding-top: 20px;
+    padding-bottom: 50px;
+    border-bottom-left-radius: 30%;
+}
+
+.parcel-listing-content{    
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    
+}
+
+.parcel-listing-content .single-parcel{
+    
+    border: 1px solid black;
+    padding: 30px 15px;
+    border-radius: 10px;
+    
+    margin-top: 20px;
+    display: flex;   
+     box-shadow: 5px 5px 8px #888888
+}
+
+.parcel-listing-content .single-parcel:hover{
+    background-color: white;
+    cursor: pointer;
+}
+.parcel-listing-content .single-parcel span{
+   margin-top: 7px;
+   font-weight: 500;
+}
+
+
+
+.parcel-listing-content .single-parcel p{
+     margin-top: 7px;
+}
+
+
+
+
